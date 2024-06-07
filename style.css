@@ -1,6 +1,18 @@
 /* body前添加伪元素避免navbar遮挡 */
 body::before {
-    display: block;
-    height: 56px;
-    content: " ";
+  display: block;
+  height: 90px;
+  content: " ";
+}
+
+.list-group-item {
+  border: dotted;
+}
+
+.text-primary {
+    color: #164481 !important;
+}
+
+.bg-primary {
+    background-color: #164481 !important;
 }
